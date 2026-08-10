@@ -30,30 +30,6 @@ var WIFAI_TEAM = [
     featured: true
   },
   {
-    category: "Organizers",
-    name: "Mingruo Qu",
-    initials: "MQ",
-    role: "Co-Organizer",
-    location: "",
-    bio: "Co-organizer of Women in Frontier AI.",
-    link: "https://www.linkedin.com/in/mingruoqu/",
-    photo: null,
-    placeholder: false,
-    featured: true
-  },
-  {
-    category: "Organizers",
-    name: "Kaley Brauer",
-    initials: "KB",
-    role: "Co-Organizer",
-    location: "",
-    bio: "Co-organizer of Women in Frontier AI.",
-    link: "https://www.linkedin.com/in/kaleybrauer/",
-    photo: null,
-    placeholder: false,
-    featured: true
-  },
-  {
     category: "Advisors",
     name: "Add Name",
     initials: "AN",
