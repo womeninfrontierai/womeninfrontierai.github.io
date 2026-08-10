@@ -21,15 +21,18 @@
         ? '<a class="link" href="' + person.link + '" target="_blank" rel="noopener" style="font-family:var(--mono); font-size:0.78rem;">Read more →</a>'
         : '';
 
+      var flag = person.placeholder === false ? '' : '<span class="placeholder-flag">Placeholder</span>';
+      var location = person.location ? '<div class="team-card-location">' + person.location + '</div>' : '';
+
       return (
         '<div class="team-card" data-reveal>' +
           avatar +
           '<div class="team-card-body">' +
-            '<span class="placeholder-flag">Placeholder</span>' +
+            flag +
             '<div>' +
               '<div class="team-card-name">' + person.name + '</div>' +
               '<div class="team-card-role">' + person.role + '</div>' +
-              '<div class="team-card-location">' + person.location + '</div>' +
+              location +
             '</div>' +
             '<p class="team-card-bio">' + person.bio + '</p>' +
             link +

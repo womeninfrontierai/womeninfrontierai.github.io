@@ -19,13 +19,14 @@
 var WIFAI_TEAM = [
   {
     category: "Organizers",
-    name: "Add Name",
-    initials: "AN",
-    role: "Founder / Organizer",
-    location: "City, Country",
-    bio: "One or two sentences on background, current focus, and what they work on at the frontier of AI.",
-    link: "#",
-    photo: null,
+    name: "Raila",
+    initials: "R",
+    role: "Founder",
+    location: "",
+    bio: "ML engineer on the applied machine learning teams at Google, working on LLMs for reasoning and mathematics, alignment, and multimodality.",
+    link: "https://www.linkedin.com/in/railasan/",
+    photo: "assets/people/raila.png",
+    placeholder: false,
     featured: true
   },
   {
