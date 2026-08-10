@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Team — Women in Frontier AI</title>
+<meta name="description" content="Meet the organizers, advisors, and members of Women in Frontier AI." />
+<meta name="color-scheme" content="light dark" />
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#0c0c0c" media="(prefers-color-scheme: dark)" />
+<link rel="icon" type="image/png" href="assets/logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Kantumruy+Pro:wght@400;500&display=swap" />
+<link rel="stylesheet" href="css/style.css" />
+<script>
+(function () {
+  try {
+    var stored = localStorage.getItem('wifai-theme');
+    if (stored) document.documentElement.setAttribute('data-theme', stored);
+  } catch (e) {}
+})();
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <img class="brand-mark" src="assets/logo.png" alt="Women in Frontier AI logo" />
+      Women in Frontier AI
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="team.html" aria-current="page">Team</a>
+      <a href="events.html">Events</a>
+    </nav>
+    <div class="nav-right">
+      <a class="btn btn-primary" href="https://www.linkedin.com/company/women-in-frontier-ai/" target="_blank" rel="noopener">
+        Join us <span class="btn-arrow">→</span>
+      </a>
+      <button class="theme-toggle" data-theme-toggle aria-label="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+      </button>
+      <button class="nav-toggle" data-nav-toggle aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+  </div>
+  <div class="container mobile-nav" data-mobile-nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="team.html" aria-current="page">Team</a>
+    <a href="events.html">Events</a>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow" data-reveal>Team</p>
+      <h1 class="text-display" style="margin-top:1rem; max-width:38rem;" data-reveal>Meet the community.</h1>
+      <p class="text-lead" style="margin-top:1.25rem;" data-reveal>
+        Women in Frontier AI is organized and carried forward by its members —
+        researchers, engineers, and builders working across AI safety,
+        infrastructure, semiconductors, and scientific computing.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container">
+      <div class="notice" data-reveal>
+        <strong>Note for the team:</strong> the entries below are placeholders.
+        Open <code>js/team-data.js</code> and replace each entry with a real
+        name, role, location, bio, and (optionally) a photo — the page
+        re-renders automatically from that file.
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container" id="team-sections"></div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container">
+      <div class="card" data-reveal style="padding:3rem 2rem; text-align:center; background:transparent; border-style:dashed;">
+        <p class="eyebrow" style="color:rgb(var(--accent));">Not listed yet?</p>
+        <h2 class="text-title" style="margin-top:0.8rem;">Join the community on LinkedIn</h2>
+        <p class="text-muted" style="max-width:30rem; margin:0.9rem auto 0; font-size:1rem;">
+          If you're working at the frontier of AI, we'd love to have you.
+        </p>
+        <div class="hero-actions" style="justify-content:center; margin-top:1.8rem;">
+          <a class="btn btn-primary" href="https://www.linkedin.com/company/women-in-frontier-ai/" target="_blank" rel="noopener">
+            Join on LinkedIn <span class="btn-arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div style="max-width:20rem;">
+        <a href="index.html" class="brand"><img class="brand-mark" src="assets/logo.png" alt="Women in Frontier AI logo" />Women in Frontier AI</a>
+        <p class="text-muted" style="margin-top:1rem; font-size:0.92rem;">
+          A community for women researchers and builders working at the frontier of AI.
+        </p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="events.html">Events</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="https://www.linkedin.com/company/women-in-frontier-ai/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://luma.com/womeninfrontierai" target="_blank" rel="noopener">Luma (Events)</a></li>
+            <li><a href="https://www.instagram.com/curieaisociety/" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Focus</h4>
+          <ul>
+            <li><span class="text-muted">AI Safety</span></li>
+            <li><span class="text-muted">Infrastructure</span></li>
+            <li><span class="text-muted">Semiconductors</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> Women in Frontier AI</span>
+      <span>Community for women researchers working at the frontier of AI</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/team-data.js"></script>
+<script src="js/team.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
