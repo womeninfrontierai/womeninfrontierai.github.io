@@ -21,6 +21,7 @@
         '<div class="team-card-body">' +
           name +
           '<div class="team-card-role">' + person.role + '</div>' +
+          (person.bio ? '<p class="team-card-bio">' + person.bio + '</p>' : '') +
         '</div>' +
       '</div>'
     );

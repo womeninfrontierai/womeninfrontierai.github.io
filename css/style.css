@@ -16,6 +16,7 @@
   --rule: 179 185 194;
   --accent: 58 82 102;
   --accent-bg: 214 224 230;
+  --avatar-bg: 255 255 255;
 
   --sans: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   --heading: var(--sans);
@@ -42,6 +43,7 @@
     --rule: 36 38 43;
     --accent: 110 138 160;
     --accent-bg: 24 30 35;
+    --avatar-bg: 0 0 0;
   }
 }
 
@@ -55,6 +57,7 @@
   --rule: 36 38 43;
   --accent: 110 138 160;
   --accent-bg: 24 30 35;
+  --avatar-bg: 0 0 0;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -633,7 +636,7 @@ html.has-reveal [data-reveal][data-revealed="true"] {
 .avatar {
   width: 100%;
   aspect-ratio: 1 / 1;
-  background: rgb(var(--accent-bg));
+  background: rgb(var(--avatar-bg));
   color: rgb(var(--accent));
   display: flex;
   align-items: center;
@@ -656,6 +659,11 @@ html.has-reveal [data-reveal][data-revealed="true"] {
   font-family: var(--heading);
   font-size: 0.98rem;
   letter-spacing: -0.005em;
+}
+
+a.team-card-name:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(var(--faint));
 }
 
 .team-card-role {
