@@ -11,11 +11,15 @@
       ? '<img class="avatar" src="' + person.photo + '" alt="' + person.name + '" />'
       : '<div class="avatar">' + person.initials + '</div>';
 
+    var name = (person.link && person.link !== '#')
+      ? '<a class="team-card-name" href="' + person.link + '" target="_blank" rel="noopener">' + person.name + '</a>'
+      : '<div class="team-card-name">' + person.name + '</div>';
+
     return (
       '<div class="team-card" data-reveal>' +
         avatar +
         '<div class="team-card-body">' +
-          '<div class="team-card-name">' + person.name + '</div>' +
+          name +
           '<div class="team-card-role">' + person.role + '</div>' +
         '</div>' +
       '</div>'
