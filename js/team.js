@@ -41,11 +41,15 @@
       );
     }).join('');
 
+    var count = category === 'Selected Members'
+      ? '.. and 100+ members'
+      : people.length + ' ' + (people.length === 1 ? 'person' : 'people');
+
     return (
       '<div class="team-section">' +
         '<div class="team-section-head">' +
           '<h2 class="text-title">' + category + '</h2>' +
-          '<span class="text-faint" style="font-family:var(--mono); font-size:0.78rem;">' + people.length + ' ' + (people.length === 1 ? 'person' : 'people') + '</span>' +
+          '<span class="text-faint" style="font-family:var(--mono); font-size:0.78rem;">' + count + '</span>' +
         '</div>' +
         '<div class="grid grid-3">' + cards + '</div>' +
       '</div>'

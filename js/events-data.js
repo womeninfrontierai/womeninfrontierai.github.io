@@ -10,27 +10,21 @@
 
 var WIFAI_EVENTS = [
   {
-    date: "TBD",
+    date: "Aug 16, 2026",
     format: "Speaker Talk",
-    title: "Add event title",
-    description: "One or two sentences describing the talk, speaker, and what attendees will get out of it."
+    title: "Weekly Sunday Talk: Sonia Joseph on World Models",
+    description: "Sonia Joseph (Princeton, PhD from Mila) on the internal function of world models and multimodal models, and World Mechanics, her new venture building interpretable foundation models and scientific simulation tools for physical-world applications."
   },
   {
-    date: "TBD",
-    format: "Technical Workshop",
-    title: "Add event title",
-    description: "One or two sentences describing the workshop topic and format."
+    date: "Jul 2026",
+    format: "Community Evening",
+    title: "An Evening with Women x Allies at the Frontier of AI and Science",
+    description: "A gathering of researchers and builders at the frontier of AI and science, with Aakanksha Chowdhery (Google PaLM), Rama Govindaraju (Nvidia, World Foundation Models), Amala Deshmukh (Nvidia, multimodal LLMs), and Jeannie She (Arc Institute, reinforcement learning for cancer therapy), alongside guests from OpenAI, Amazon AGI, DeepMind, Stanford, and Caltech."
   },
   {
-    date: "TBD",
+    date: "Jun 2026",
     format: "Meet & Greet",
-    title: "Add event title",
-    description: "One or two sentences describing the gathering — where, and who it's for."
-  },
-  {
-    date: "TBD",
-    format: "Publishing Circle",
-    title: "Add event title",
-    description: "One or two sentences describing the peer-review or publishing support session."
+    title: "First Edition: Women in Frontier AI at AGI House",
+    description: "Our launch event at AGI House, bringing together women working across robotics, multimodal world models, agentic AI training, and enterprise AI, with Vidhi Jain (OpenAI, robotics), Shreya Sharma (World Labs, Marble), Mingruo Qu (Amazon AGI SF), Erika Byun (Thinking Machines Lab), Mitashi Sharma (Salesforce, Agentforce), and Ishita Jindal (co-founder, MemoryStore)."
   }
 ];
